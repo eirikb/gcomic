@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>imageServiceImpl</servlet-name>
+        <servlet-class>no.eirikb.gcomic.gwt.server.ImageServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>imageServiceImpl</servlet-name>
+        <url-pattern>/gcomic/ImageService</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
